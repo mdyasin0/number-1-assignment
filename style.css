@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.open-sans{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    background-color: #F1F1F3;
+}
+.logho{
+    font-size: 32px;
+    font-weight:bold ;
+}
+.Sign-In{
+    font-size: 18px;
+    font-weight:600px;
+    padding: 5px ;
+    outline:none ;
+    border:1px solid #006A50;
+    color:#006A50 ;
+    border-radius: 4px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    align-items:center ;
+
+}
+.hero-section{
+    background-color:#C6E4D6 ;
+    width: 1200px;
+    height: 500px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-top:80px;
+    padding-right:100px  ;
+    padding-left:100px  ;
+    padding-bottom:80px ;
+    align-items: center;
+
+
+}
+.hero-title{
+    font-size: 24px;
+    color:#0E0E0E ;
+}
+.hero-description{
+    font-size: 56px;
+    font-weight:bold;
+    color:#0E0E0E ;
+}
+.hero-button{
+    font-size:18px;
+    font-weight: 500px;
+    background-color:#006A50 ;
+    color:#FFFFFF ;
+    padding: 7px;
+    outline: none;
+    border: 1px solid #006A50;
+    border-radius: 4px;
+
+}
+.hero-img{
+ width: 474px;
+ height: 400px;
+ 
+
+
+}
