@@ -40,7 +40,7 @@ nav{
     background-color:#C6E4D6 ;
     width: 1200px;
     height: 500px;
-    border-radius: 5px;
+    border-radius: 20px;
     margin: 0 auto;
     margin-top: 24px;
     display: flex;
@@ -50,6 +50,7 @@ nav{
     padding-left:100px  ;
     padding-bottom:80px ;
     align-items: center;
+    margin-bottom: 50px;
 
 
 }
@@ -76,7 +77,149 @@ nav{
 .hero-img{
  width: 474px;
  height: 400px;
- 
+}
 
+/* pillars section */
 
+.pilllars{
+   
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 324px;
+    margin: 0 auto;
+
+}
+.pillars-all-cards{
+    display: flex;
+    gap: 20px;
+}
+.Pillars-title{
+    font-size:40px ;
+    font-weight: bold;
+    color:#0E0E0E ;
+    margin-bottom: 20px;
+}
+.pillars-cards{
+    background-color:#FFFFFF ;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #F3EBEB;
+}
+.pillars-img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+
+}
+.pillars-cards-title{
+    font-size: 2opx;
+    font-weight: bold;
+    color:#0E0E0E ;
+    margin-bottom: 5px;
+}
+/* vision section */
+.vision{
+    width: 1200px;
+    height: 325px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.vision-title{
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.vision-all-cards{
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    height: 325px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.vision-cards-1{
+    background-color: #cfdcf3;
+    width: 410px;
+    height: 300px;
+    padding: 24px;
+    border-radius: 10px; 
+}
+.vision-cards-2{
+    background-color: #C6E4D6;
+    width: 410px;
+    height: 300px;
+    padding: 24px;
+    border-radius: 10px;
+
+}
+.vision-cards-3{
+    background-color: #F7EBCF;
+    width: 410px;
+    height: 300px;
+    padding: 24px;
+    border-radius: 10px;
+}
+.vision-img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+}
+.vision-cards-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+}
+.vision-button-1{
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: #5490F5;
+    color: white;
+    border-radius: 3px;
+    margin-top: 60px;
+
+}
+.vision-button-2{
+    padding: 5px;
+    outline: none;
+    background-color: #09A15C;
+    color: white;
+    border-radius: 3px;
+    margin-top: 60px;
+    border: none;
+}
+.vision-button-3{
+    padding: 5px;
+    outline: none;
+    background-color: #FFC239;
+    color: white;
+    border-radius: 3px;
+    margin-top: 60px;
+    border: none;
+}
+
+.Chief-Adviser{
+    background-color: white;
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 25px;
+    background-image: url(image/quote-bg.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.Adviser-name{
+ font-size:20px ;
+ font-weight:500px ;
+ margin-top:10px ;
+ margin-bottom:10px;
 }
