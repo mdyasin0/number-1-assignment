@@ -211,8 +211,9 @@ nav{
     height: 200px;
     margin: 0 auto;
     padding: 25px;
-    background-image: url(image/quote-bg.png);
+    background-image: url(quote-bg.png);
     background-repeat: no-repeat;
+    background-position: start;
     border-radius: 20px;
     margin-bottom: 20px;
 }
@@ -227,9 +228,10 @@ nav{
 
 .opinion-container{
 width: 1200px;
-height: 485px;
+height: 400px;
 margin: 0 auto;
 justify-content: center;
+margin-top: 30px;
 }
 
 table{
@@ -251,4 +253,63 @@ table ,tr,td {
     padding: 15px;
     border-collapse: collapse;
     text-align: center;
+}
+/* news section */
+.news{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+.news-title{
+    font-size:40px ;
+    font-weight:bold ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.news-description{
+    margin-bottom: 10px;
+}
+.news-card{
+    width: 1200px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+.news-photo{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.news-card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.news-headline{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.news-img{
+    width:134px ;
+    height:40px ;
+    margin-bottom: 5px;
+}
+.news-button{
+    padding: 8px;
+    background-color:#006A50 ;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
 }
